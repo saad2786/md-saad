@@ -23,19 +23,19 @@ function typingEng()
 
 }
 window.addEventListener('scroll', function () {
-    if( this.window.pageYOffset > 400 )
+    if( this.window.pageYOffset > 350 )
     {
         document.querySelector(".box-1").classList.add("left-box");
         document.querySelector(".box-2").classList.add("right-box");
     }
-    else if(this.window.pageYOffset > 450)
+    else if(this.window.pageYOffset > 600)
     {
         document.querySelector(".box-1").classList.remove("left-box");
         document.querySelector(".box-3").classList.remove("left-box");
         document.querySelector(".box-2").classList.remove("right-box");
         document.querySelector(".box-4").classList.remove("right-box");
     }
-    if( this.window.pageYOffset > 500)
+    if( this.window.pageYOffset > 450)
         {
             document.querySelector(".box-3").classList.add("left-box");
             document.querySelector(".box-4").classList.add("right-box");
