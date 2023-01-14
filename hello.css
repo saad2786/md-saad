@@ -25,10 +25,11 @@ form
   border-radius: 10px;
 }
 @media only screen and (max-width:840px )  {
-   form
-    {
-        width:80%;
-    }
+  form
+  {
+    width: 75%;
+    margin-left: -100px;
+  }
 }
 .border
 {
