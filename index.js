@@ -23,7 +23,7 @@ function typingEng()
 
 }
 window.addEventListener('scroll', function () {
-    if( this.window.pageYOffset > 300 )
+    if( this.window.pageYOffset > 200 )
     {
         document.querySelector(".box-1").classList.add("left-box");
         document.querySelector(".box-2").classList.add("right-box");
@@ -35,7 +35,7 @@ window.addEventListener('scroll', function () {
         document.querySelector(".box-2").classList.remove("right-box");
         document.querySelector(".box-4").classList.remove("right-box");
     }
-    if( this.window.pageYOffset > 400)
+    if( this.window.pageYOffset > 300)
         {
             document.querySelector(".box-3").classList.add("left-box");
             document.querySelector(".box-4").classList.add("right-box");
